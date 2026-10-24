@@ -1,0 +1,4 @@
+# Hub runtime
+anthropic>=2.3.0
+# Shared with the vendored job-alert-validation skill
+-r .claude/skills/job-alert-validation/requirements.txt

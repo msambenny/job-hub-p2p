@@ -1,0 +1,39 @@
+{
+  "shortener_hosts": [
+    "on.tcs.com",
+    "bit.ly",
+    "t.co",
+    "lnkd.in",
+    "goo.gl",
+    "tinyurl.com"
+  ],
+  "hosts": {
+    "on.tcs.com": {
+      "prefer_get": true,
+      "notes": "TCS short links; HEAD is often blocked or unhelpful."
+    },
+    "hack2skill.com": {
+      "prefer_get": true
+    },
+    "www.hack2skill.com": {
+      "prefer_get": true
+    },
+    "linkedin.com": {
+      "prefer_get": true,
+      "discourage": true,
+      "reason": "Use the employer apply link when possible; LinkedIn often shows a login wall to scrapers."
+    },
+    "www.linkedin.com": {
+      "prefer_get": true,
+      "discourage": true,
+      "reason": "Use the employer apply link when possible; LinkedIn often shows a login wall to scrapers."
+    }
+  },
+  "login_wall_snippets": [
+    "sign in to linkedin",
+    "authwall",
+    "join linkedin",
+    "you must log in to continue",
+    "enable javascript to view this page"
+  ]
+}

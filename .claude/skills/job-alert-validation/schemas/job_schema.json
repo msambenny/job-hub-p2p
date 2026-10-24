@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/msambenny/job_validation_skill/job_schema.json",
+  "title": "JobAlertRecord",
+  "description": "Structured job alert used by validate, compare, WhatsApp format, and resume match scripts.",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "company_name": { "type": "string" },
+    "job_title": { "type": "string" },
+    "department": { "type": "string" },
+    "job_type": { "type": "string" },
+    "work_mode": { "type": "string" },
+    "location": { "type": "string" },
+    "salary_min": { "type": "string" },
+    "salary_max": { "type": "string" },
+    "benefits": { "type": "string" },
+    "experience": { "type": "string" },
+    "education": { "type": "string" },
+    "skills": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "description": { "type": "string" },
+    "application_deadline": { "type": "string" },
+    "posted_date": {
+      "type": "string",
+      "description": "ISO date (YYYY-MM-DD) or parseable date string for resume freshness checks"
+    },
+    "contact_name": { "type": "string" },
+    "contact_whatsapp": { "type": "string" },
+    "contact_email": { "type": "string" },
+    "apply_link": { "type": "string" },
+    "custom_note": { "type": "string" },
+    "source_url": { "type": "string" },
+    "raw_text": { "type": "string" }
+  }
+}

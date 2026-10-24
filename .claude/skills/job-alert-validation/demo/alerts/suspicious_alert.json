@@ -1,0 +1,16 @@
+{
+  "company_name": "Google",
+  "job_title": "Software Engineer",
+  "job_type": "Full-Time",
+  "work_mode": "Remote",
+  "location": "Bengaluru, India",
+  "salary_min": "45 LPA",
+  "salary_max": "60 LPA",
+  "experience": "Freshers welcome",
+  "skills": ["Python", "Java"],
+  "description": "Urgent hiring! Work from home. Limited seats.",
+  "posted_date": "{{POSTED}}",
+  "contact_whatsapp": "+91 9000000000",
+  "apply_link": "https://forms.gle/AbCdEf123456",
+  "custom_note": "Pay refundable registration fee of Rs 499 to confirm your slot"
+}

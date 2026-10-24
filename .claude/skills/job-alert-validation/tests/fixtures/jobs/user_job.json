@@ -1,0 +1,22 @@
+{
+  "company_name": "Acme Labs",
+  "job_title": "Backend Engineer",
+  "department": "Platform",
+  "job_type": "Full-Time",
+  "work_mode": "Hybrid",
+  "location": "Bengaluru, India",
+  "salary_min": "12 LPA",
+  "salary_max": "18 LPA",
+  "benefits": "Health insurance, learning budget",
+  "experience": "2+ years Python",
+  "education": "B.Tech or equivalent",
+  "skills": ["Python", "AWS", "PostgreSQL"],
+  "description": "Build APIs and services for our data platform.",
+  "application_deadline": "2026-04-30",
+  "posted_date": "2026-03-20",
+  "contact_name": "Priya Sharma",
+  "contact_whatsapp": "+91 9876543210",
+  "contact_email": "hiring@acmelabs.example",
+  "apply_link": "https://careers.acmelabs.example/jobs/backend-engineer",
+  "custom_note": "Referrals welcome"
+}

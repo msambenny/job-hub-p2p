@@ -1,0 +1,5 @@
+Backend Engineer resume
+Education: B.Tech Computer Science
+Experience: 3 years building backend services and APIs in Python
+Skills: Python, AWS, PostgreSQL, Docker, REST APIs, data platform
+Looking for Backend Engineer roles in Bengaluru (Hybrid or Remote).
